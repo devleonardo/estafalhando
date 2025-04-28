@@ -1,0 +1,16 @@
+zabbix_export:
+  version: '7.2'
+  template_groups:
+    - uuid: 7df96b18c230490a9a0a9e2307226338
+      name: Templates
+  templates:
+    - uuid: 9a244a45529d41918e2c0c1d1b65d6fd
+      template: Downdetector
+      name: Downdetector
+      groups:
+        - name: Templates
+      items:
+        - uuid: 0614337bfbd84a0c8b8342d90bed3936
+          name: detector
+          type: EXTERNAL
+          key: 'newDownDetector.py[{HOST.NAME}]'

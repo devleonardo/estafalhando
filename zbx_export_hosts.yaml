@@ -1,0 +1,126 @@
+zabbix_export:
+  version: '7.2'
+  host_groups:
+    - uuid: fac8d9a4103c4c25a78a50b3de490071
+      name: Downdetector
+  hosts:
+    - host: amazon-web-services-aws
+      name: amazon-web-services-aws
+      templates:
+        - name: Downdetector
+      groups:
+        - name: Downdetector
+    - host: banco-do-brasil
+      name: banco-do-brasil
+      templates:
+        - name: Downdetector
+      groups:
+        - name: Downdetector
+    - host: bradesco
+      name: bradesco
+      templates:
+        - name: Downdetector
+      groups:
+        - name: Downdetector
+    - host: caixa-economica
+      name: caixa-economica
+      templates:
+        - name: Downdetector
+      groups:
+        - name: Downdetector
+    - host: claro-brasil
+      name: claro-brasil
+      templates:
+        - name: Downdetector
+      groups:
+        - name: Downdetector
+    - host: cloudflare
+      name: cloudflare
+      templates:
+        - name: Downdetector
+      groups:
+        - name: Downdetector
+    - host: copilot
+      name: copilot
+      templates:
+        - name: Downdetector
+      groups:
+        - name: Downdetector
+    - host: correios
+      name: correios
+      templates:
+        - name: Downdetector
+      groups:
+        - name: Downdetector
+    - host: discord
+      name: discord
+      templates:
+        - name: Downdetector
+      groups:
+        - name: Downdetector
+    - host: embratel
+      name: embratel
+      templates:
+        - name: Downdetector
+      groups:
+        - name: Downdetector
+    - host: github
+      name: github
+      templates:
+        - name: Downdetector
+      groups:
+        - name: Downdetector
+    - host: itau
+      name: itau
+      templates:
+        - name: Downdetector
+      groups:
+        - name: Downdetector
+    - host: microsoft-teams
+      name: microsoft-teams
+      templates:
+        - name: Downdetector
+      groups:
+        - name: Downdetector
+    - host: nubank
+      name: nubank
+      templates:
+        - name: Downdetector
+      groups:
+        - name: Downdetector
+    - host: office-365
+      name: office-365
+      templates:
+        - name: Downdetector
+      groups:
+        - name: Downdetector
+    - host: picpay
+      name: picpay
+      templates:
+        - name: Downdetector
+      groups:
+        - name: Downdetector
+    - host: Pix
+      name: Pix
+      templates:
+        - name: Downdetector
+      groups:
+        - name: Downdetector
+    - host: tim-brasil
+      name: tim-brasil
+      templates:
+        - name: Downdetector
+      groups:
+        - name: Downdetector
+    - host: vivo-brasil
+      name: vivo-brasil
+      templates:
+        - name: Downdetector
+      groups:
+        - name: Downdetector
+    - host: whatsapp-messenger
+      name: whatsapp-messenger
+      templates:
+        - name: Downdetector
+      groups:
+        - name: Downdetector
